@@ -17,7 +17,7 @@ if [[ -d ".devcontainer" ]]; then
 fi
 
 # Download from main branch (contains latest fixes)
-REPO="${GITHUB_USER:-brianoestberg}/universal-devcontainer"
+REPO="${GITHUB_USER:-mosgarage}/universal-devcontainer"
 DOWNLOAD_URL="https://github.com/$REPO/archive/main.tar.gz"
 echo "Downloading from main branch..."
 

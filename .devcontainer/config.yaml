@@ -3,7 +3,7 @@
 
 # User settings
 user:
-  timezone: ${TIMEZONE:-UTC}
+  timezone: Europe/London
   locale: ${LOCALE:-en_US.UTF-8}
   username: ${USERNAME:-developer}
   dotfiles:

@@ -1,5 +1,5 @@
 {
-  "name": "Universal Dev Container (Simple Test)",
+  "name": "Mosgarage Dev Container (Simple Test)",
   "build": {
     "dockerfile": "Dockerfile"
   },
