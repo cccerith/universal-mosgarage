@@ -1,7 +1,7 @@
 #!/bin/bash
 # Debug script for container issues
 
-echo "Container Debug Information"
+echo "Mosgarage Debug Information"
 echo "=========================="
 echo ""
 
@@ -12,7 +12,7 @@ echo ""
 
 # Build the container manually to see full error
 echo "Building container manually..."
-cd /home/brian/code/test-container/.devcontainer
+cd /home/ubuntu/code/test-container/.devcontainer
 
 # Try building with plain docker first
 echo "Attempting docker build..."
@@ -35,6 +35,6 @@ fi
 
 echo ""
 echo "To use minimal configuration:"
-echo "cd /home/brian/code/test-container"
+echo "cd /home/ubuntu/code/test-container"
 echo "cp .devcontainer/devcontainer-minimal.json .devcontainer/devcontainer.json"
 echo "Then try 'Reopen in Container' in VS Code"

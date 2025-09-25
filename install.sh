@@ -1,8 +1,8 @@
 #!/bin/bash
-# Quick installer for Universal Dev Container
+# Quick installer for Universal Mosgarage
 set -euo pipefail
 
-echo "Installing Universal Dev Container..."
+echo "Installing Universal Mosgarage..."
 
 # Check if .devcontainer already exists
 if [[ -d ".devcontainer" ]]; then
@@ -17,8 +17,8 @@ if [[ -d ".devcontainer" ]]; then
 fi
 
 # Download from main branch (contains latest fixes)
-REPO="${GITHUB_USER:-mosgarage}/universal-devcontainer"
-DOWNLOAD_URL="https://github.com/$REPO/archive/main.tar.gz"
+REPO="${GITHUB_USER:-mosgarage}/universal-mosgarage"
+DOWNLOAD_URL="https://github.com/mosgarage/archive/main.tar.gz"
 echo "Downloading from main branch..."
 
 # Download and extract
@@ -35,5 +35,5 @@ if [[ -x ".devcontainer/scripts/setup-wizard.sh" ]]; then
 fi
 
 echo ""
-echo "✓ Universal Dev Container installed successfully!"
+echo "✓ Universal Mosgarage installed successfully!"
 echo "  Open this folder in VS Code and reopen in container"
